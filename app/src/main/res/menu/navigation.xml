@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tripNavID"
+        android:title="Trips"
+        android:icon="@drawable/tripsi_icon"
+        ></item>
+    <item
+        android:id="@+id/memoriesNavID"
+        android:icon="@drawable/memories_icon"
+        android:title="Memory"
+        ></item>
+    <item
+        android:id="@+id/walletNavID"
+        android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+        android:title="Walet"
+        ></item>
+
+</menu>

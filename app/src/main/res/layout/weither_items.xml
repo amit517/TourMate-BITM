@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:background="@color/mainColor"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/weatherItemIvId"
+        android:layout_width="100dp"
+        android:layout_height="80dp" />
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:id="@+id/dateWeitherItemTvId"
+            android:textSize="15sp"
+            android:text="Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:textSize="15sp"
+            android:text="Discription"
+            android:id="@+id/weitherDiscriptionTvId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+
+                android:id="@+id/tempWeitherItemTvId"
+                android:textSize="15sp"
+                android:text="temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="20dp"
+
+                android:id="@+id/windWeitherItemTvId"
+                android:textSize="15sp"
+                android:text="wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

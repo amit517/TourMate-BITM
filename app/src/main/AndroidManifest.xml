@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amitKundu.tourmate">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.androidtutorialpoint.mymapsappsdirection.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.amitKundu.tourmate.TourMate"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.amitKundu.tourmate.Activity.splashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar1">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="com.amitKundu.tourmate.Activity.MemoryActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.amitKundu.tourmate.MapAction.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/AppTheme.NoActionBar1" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.amitKundu.tourmate.WeatherActivity"
+            android:theme="@style/AppTheme.NoActionBar1" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.amitKundu.tourmate.SignUp"
+            android:theme="@style/AppTheme.NoActionBar1" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.amitKundu.tourmate.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar1">
+
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.amitKundu.tourmate.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar1" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.amitKundu.tourmate"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "998314665908",
+    "firebase_url": "https://tour-mate-89353.firebaseio.com",
+    "project_id": "tour-mate-89353",
+    "storage_bucket": "tour-mate-89353.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998314665908:android:04f3c5c5d05ff104a234e1",
+        "android_client_info": {
+          "package_name": "com.amit.tourmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998314665908-ph8d7tphsi3sjcu8oibmff1l64r6ok8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVdQlHAtV4KX7n6O8tey80JOtSNGsFOPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998314665908-ph8d7tphsi3sjcu8oibmff1l64r6ok8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998314665908:android:1b0646ff51f19057a234e1",
+        "android_client_info": {
+          "package_name": "com.amitKundu.tourmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998314665908-ph8d7tphsi3sjcu8oibmff1l64r6ok8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVdQlHAtV4KX7n6O8tey80JOtSNGsFOPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998314665908-ph8d7tphsi3sjcu8oibmff1l64r6ok8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998314665908:android:106e411862165f86a234e1",
+        "android_client_info": {
+          "package_name": "com.bitmproject.amit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998314665908-ph8d7tphsi3sjcu8oibmff1l64r6ok8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVdQlHAtV4KX7n6O8tey80JOtSNGsFOPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998314665908-ph8d7tphsi3sjcu8oibmff1l64r6ok8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

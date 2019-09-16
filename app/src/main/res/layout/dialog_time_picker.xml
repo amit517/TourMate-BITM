@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/mainColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select a time"
+        android:textSize="20sp"/>
+    <TimePicker
+        android:layout_marginTop="5dp"
+        android:id="@+id/timePickerID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TimePicker>
+    <LinearLayout
+        android:layout_marginRight="15dp"
+        android:layout_gravity="right"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/cancel_time_pick"
+            android:padding="15dp"
+            android:textColor="@color/mainColor"
+            android:textSize="16dp"
+            android:layout_marginRight="10dp"
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/ok_time_pick_Tv_id"
+            android:padding="15dp"
+            android:textSize="16dp"
+            android:textColor="@color/mainColor"
+            android:text="Ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

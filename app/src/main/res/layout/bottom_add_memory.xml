@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Add Memory"
+        android:textColor="@color/mainColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/image_icon_BottomId"
+        android:layout_gravity="center"
+        android:src="@drawable/galary"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+
+            android:inputType="textEmailAddress"
+            android:hint="Caption"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:id="@+id/imageCaptionBottomId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+
+            android:inputType="text"
+            android:hint="Description"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:id="@+id/imageDescriptionBottomId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/uploadImageIdbtn"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:text="Upload"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/mybutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

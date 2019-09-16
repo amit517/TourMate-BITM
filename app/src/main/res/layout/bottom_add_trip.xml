@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/addEventTvId"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:text="Add Event"
+        android:textColor="@color/mainColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:hint="Trip Name"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:id="@+id/tripNameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:hint="Trip Description"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:id="@+id/tripDescriptionId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:hint="Starting Place"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:id="@+id/tripStartingPlaceEtId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:hint="Estimated Budjet"
+            android:singleLine="true"
+            android:inputType="number"
+            android:imeOptions="actionDone"
+            android:id="@+id/tripBudgetEtId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <RelativeLayout
+        android:id="@+id/datepicklayoutid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp">
+
+        <ImageView
+
+            android:id="@+id/dateiconId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:tint="@color/mainColor"
+            android:src="@drawable/datecalender" />
+
+        <TextView
+            android:id="@+id/opendatepickerTvID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/mainColor"
+            android:layout_toRightOf="@+id/dateiconId"
+            android:hint="Pick Tour Start Date"
+            android:paddingTop="12dp"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/todatepicklayoutid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp">
+
+        <ImageView
+
+            android:id="@+id/todateiconId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:tint="@color/mainColor"
+            android:src="@drawable/datecalender" />
+
+        <TextView
+            android:id="@+id/toopendatepickerTvID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/todateiconId"
+            android:hint="Pick Tour End Date"
+            android:paddingTop="12dp"
+            android:textColor="@color/mainColor"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/addTrip"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:text="Add Trip"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:background="@drawable/mybutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
